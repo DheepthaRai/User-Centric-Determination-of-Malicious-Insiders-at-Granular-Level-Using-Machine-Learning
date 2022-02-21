@@ -21,13 +21,9 @@ researchers at Carnegie Mellon University.
 ### Base Paper Details:
 
 **Title:** Analyzing Data Granularity Levels for Insider Threat Detection using Machine Learning
-
 **Journal Name:** IEEE Transactions on Network and Service Management
-
 **Publisher:** IEEE
-
 **Year:** 2020
-
 **Paper Index Type:** SCIE
 
 ### Introduction:
@@ -86,9 +82,9 @@ The numerical vectors obtained after the feature extraction aid in training the 
 
 <ul>
 	<li> <b>Logistic Regression: </b> <br>
-		In this work, σ, the logistic function with l2 regularization is used to model the probability of normal and  malicious insider behavior for each input x. </li>
+		In this work, σ, the logistic function is used with l2 regularization to model the probability of normal and malicious insider behavior for each input x. </li>
 	<li> <b>Neural Network:</b> <br>
-		The NN used in this work uses rectified linear activation functions in a multilayer perceptron with a maximum of 3 hidden layers.
+		The Neural Network used uses rectified linear activation functions in a multilayer perceptron with a maximum of 3 hidden layers.
 		Adam formulation of stochastic gradient descent drives the backpropagation in this work and rectified linear activation functions are used in the hidden layers. </li>
 	<li> <b>Random Forest:</b> <br>
 		The properties of RF make it a robust algorithm which is leveraged for insider threat detection in this work. </li>
@@ -142,6 +138,26 @@ Some of the above mentioned methods have better recall and AUC values when compa
 1. Inability to adjust or improve previous results while working with a more limited portion of user data. 
 2. Several intricate analyses of user-based results and internal threat scenarios are carried out to gain better understanding of the detection performance of the system.
 
-## Code:
+## Code
 
+- Feature-Extraction.py
+- Idealistic.py - *Testing the ML algorithms in an idealistic setting as discussed.*
+- Realistic.py - *Testing the ML algorithms in a realistic setting.*
+- User-based.py - *Testing the ML algorithms in their variours granularity levels based on user activity.*
+- graph.py - *To visualize the results graphically*
+
+## Output:
+
+The output folder contains the snapshots of the output obtained from the above mentioned code.
+
+## CONCLUSION:
+
+This work shows an ML-based system for detecting internal threats in an organization's networked system. Four different ML methods, namely Logistic Regression, Neural Network, Random Forest, and XGBoost, are considered for seven different data granularity levels with limited labeled data, under various training frameworks of unseen data, to detect malicious insider behavior.
+The proposed system achieves high Detection Rate and Precision, especially when results are user-based. In most cases, Random Forest performs better than the other algorithms with respect to high Detection Rate and F1-score, with low False Positive Rates. In accordance with data granularity, higher malicious insider Detection Rates and minimum delay is found with user-session data.
+
+## Future Works:
+<ul>
+	<li> Potential improvement can be seen with the use of time information for user actions. </li>
+	<li> The models might be enabled to make a note of multiple examples or maintain state (recurrent connections) giving it the capability to make non-Markovian decisions. </li>
+</ul>
 

@@ -49,14 +49,16 @@ In addition, distinction between malicious actions and users detected is address
 ### Proposed Solution:
 
 The system proposed for detecting malign user behavior and insider threats is described in steps below: 
-1) Data collection: Required data is collected from various sources and is stored in appropriate formats. The sources under consideration are: 
-<ul>
-	<li> User activities such as HTTP traffic, emails sent, device activity, etc., </li>
-	<li> Organization framework and user profile details. </li>
-</ul>
-2) Data pre-processing: Processing of the collected data to synthesize numerical feature vectors.
-3) Deployment of ML algorithms with the constructed feature vectors as input. 
-4) Presentation of results in various formats, and detailed analysis.
+<ol>
+	<li> Data collection: Required data is collected from various sources and is stored in appropriate formats. The sources under consideration are: </li>
+	<ul>
+		<li> User activities such as HTTP traffic, emails sent, device activity, etc., </li>
+		<li> Organization framework and user profile details. </li>
+	</ul>
+	<li> Data pre-processing: Processing of the collected data to synthesize numerical feature vectors. </li>
+	<li> Deployment of ML algorithms with the constructed feature vectors as input.  </li>
+	<li>Presentation of results in various formats, and detailed analysis. </li>
+</ol>
 
 ## DETAILED ARCHITECTURE:
 
@@ -83,14 +85,14 @@ The numerical vectors obtained after the feature extraction aid in training the 
 ### ML Algorithms:
 
 <ul>
-	#### <li> Logistic Regression:
+	<li> **Logistic Regression: ** <br>
 		In this work, σ, the logistic function with l2 regularization is used to model the probability of normal and  malicious insider behavior for each input x. </li>
-	<li> #### Neural Network:
+	<li> **Neural Network:** <br>
 		The NN used in this work uses rectified linear activation functions in a multilayer perceptron with a maximum of 3 hidden layers.
 		Adam formulation of stochastic gradient descent drives the backpropagation in this work and rectified linear activation functions are used in the hidden layers. </li>
-	<li> #### Random Forest:
+	<li> **Random Forest:** <br>
 		The properties of RF make it a robust algorithm which is leveraged for insider threat detection in this work. </li>
-	<li> #### XGBoost:
+	<li> **XGBoost:** <br>
 		XGBoost provides for certain improvements over traditional gradient boosting techniques and hence provides for a scalable tree boosting system which is in turn used to reduce delay in malicious insider detection. </li>
 </ul>
 	

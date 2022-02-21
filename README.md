@@ -16,4 +16,6 @@ researchers at Carnegie Mellon University.
 
 **KEYWORDS**: Malicious insider, Data granularity, Insider Threat Test Dataset.
 
-***Note:** The base paper, code used, and snapshots of the outputs are all attached with appropriate names.*
+
+
+***NOTE:** The base paper, code used, and snapshots of the outputs are all attached with appropriate names.*

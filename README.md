@@ -89,11 +89,9 @@ The numerical vectors obtained after the feature extraction aid in training the 
 		In this work, σ, the logistic function is used with l2 regularization to model the probability of normal and malicious insider behavior for each input x. </li>
 	<li> <b>Neural Network:</b> <br>
 		The Neural Network used uses rectified linear activation functions in a multilayer perceptron with a maximum of 3 hidden layers.
-		Adam formulation of stochastic gradient descent drives the backpropagation in this work and rectified linear activation functions are used in the hidden layers.
-		<img src = "readme_images/nn.png" alt = "neural network") </li>
+		Adam formulation of stochastic gradient descent drives the backpropagation in this work and rectified linear activation functions are used in the hidden layers. </li>
 	<li> <b>Random Forest:</b> <br>
-		The properties of RF make it a robust algorithm which is leveraged for insider threat detection in this work.
-		<img src = "rf.png" alt = "random forest" style="width:300px;height:400px;") </li>
+		The properties of RF make it a robust algorithm which is leveraged for insider threat detection in this work. </li>
 	<li> <b>XGBoost:</b> <br>
 		XGBoost provides for certain improvements over traditional gradient boosting techniques and hence provides for a scalable tree boosting system which is in turn used to reduce delay in malicious insider detection. </li>
 </ul>

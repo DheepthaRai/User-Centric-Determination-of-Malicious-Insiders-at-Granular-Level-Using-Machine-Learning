@@ -21,9 +21,13 @@ researchers at Carnegie Mellon University.
 ### Base Paper Details:
 
 **Title:** Analyzing Data Granularity Levels for Insider Threat Detection using Machine Learning
+
 **Journal Name:** IEEE Transactions on Network and Service Management
+
 **Publisher:** IEEE
+
 **Year:** 2020
+
 **Paper Index Type:** SCIE
 
 ### Introduction:

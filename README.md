@@ -1,4 +1,4 @@
-# User-Centric-Determination-of-Malicious-Insiders-at-Granular-Level-Using-Machine-Learning
+# User-Centric Determination of Malicious Insiders at Granular Level Using Machine Learning
 
 ## Abstract
 

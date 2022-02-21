@@ -142,7 +142,7 @@ Some of the above mentioned methods have better recall and AUC values when compa
 1. Inability to adjust or improve previous results while working with a more limited portion of user data. 
 2. Several intricate analyses of user-based results and internal threat scenarios are carried out to gain better understanding of the detection performance of the system.
 
-## Code
+## Code and Output:
 
 - Feature-Extraction.py
 - Idealistic.py - *Testing the ML algorithms in an idealistic setting as discussed.*
@@ -150,16 +150,14 @@ Some of the above mentioned methods have better recall and AUC values when compa
 - User-based.py - *Testing the ML algorithms in their variours granularity levels based on user activity.*
 - graph.py - *To visualize the results graphically*
 
-## Output:
+The "Output Snaps" folder contains the snapshots of the output obtained.
 
-The output folder contains the snapshots of the output obtained from the above mentioned code.
-
-## CONCLUSION:
+## Conclusion:
 
 This work shows an ML-based system for detecting internal threats in an organization's networked system. Four different ML methods, namely Logistic Regression, Neural Network, Random Forest, and XGBoost, are considered for seven different data granularity levels with limited labeled data, under various training frameworks of unseen data, to detect malicious insider behavior.
 The proposed system achieves high Detection Rate and Precision, especially when results are user-based. In most cases, Random Forest performs better than the other algorithms with respect to high Detection Rate and F1-score, with low False Positive Rates. In accordance with data granularity, higher malicious insider Detection Rates and minimum delay is found with user-session data.
 
-## Future Works:
+### Future Works:
 <ul>
 	<li> Potential improvement can be seen with the use of time information for user actions. </li>
 	<li> The models might be enabled to make a note of multiple examples or maintain state (recurrent connections) giving it the capability to make non-Markovian decisions. </li>

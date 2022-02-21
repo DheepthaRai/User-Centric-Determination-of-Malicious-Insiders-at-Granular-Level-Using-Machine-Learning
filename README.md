@@ -50,8 +50,10 @@ In addition, distinction between malicious actions and users detected is address
 
 The system proposed for detecting malign user behavior and insider threats is described in steps below: 
 1) Data collection: Required data is collected from various sources and is stored in appropriate formats. The sources under consideration are: 
-• User activities such as HTTP traffic, emails sent, device activity, etc., 
-• Organization framework and user profile details.
+<ul>
+	<li> User activities such as HTTP traffic, emails sent, device activity, etc., </li>
+	<li> Organization framework and user profile details. </li>
+</ul>
 2) Data pre-processing: Processing of the collected data to synthesize numerical feature vectors.
 3) Deployment of ML algorithms with the constructed feature vectors as input. 
 4) Presentation of results in various formats, and detailed analysis.
@@ -81,7 +83,7 @@ The numerical vectors obtained after the feature extraction aid in training the 
 ### ML Algorithms:
 
 <ul>
-	<li> #### Logistic Regression:
+	#### <li> Logistic Regression:
 		In this work, σ, the logistic function with l2 regularization is used to model the probability of normal and  malicious insider behavior for each input x. </li>
 	<li> #### Neural Network:
 		The NN used in this work uses rectified linear activation functions in a multilayer perceptron with a maximum of 3 hidden layers.

@@ -90,10 +90,10 @@ The numerical vectors obtained after the feature extraction aid in training the 
 	<li> <b>Neural Network:</b> <br>
 		The Neural Network used uses rectified linear activation functions in a multilayer perceptron with a maximum of 3 hidden layers.
 		Adam formulation of stochastic gradient descent drives the backpropagation in this work and rectified linear activation functions are used in the hidden layers.
-		![alt text](/readme_images/nn.png) </li>
+		<img src = "readme_images/nn.png" alt = "neural network") </li>
 	<li> <b>Random Forest:</b> <br>
 		The properties of RF make it a robust algorithm which is leveraged for insider threat detection in this work.
-		![alt text](rf.png) </li>
+		<img src = "rf.png" alt = "random forest") </li>
 	<li> <b>XGBoost:</b> <br>
 		XGBoost provides for certain improvements over traditional gradient boosting techniques and hence provides for a scalable tree boosting system which is in turn used to reduce delay in malicious insider detection. </li>
 </ul>

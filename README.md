@@ -164,4 +164,5 @@ The proposed system achieves high Detection Rate and Precision, especially when 
 </ul>
 
 ## Note:
-From the entirety of the Insider Threat Detection dataset, only CERT r5.2 was used for our work. The dataset can be downloaded from [here](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1).
+
+The Insider Threat Detection dataset that is used can be downloaded [here](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1).

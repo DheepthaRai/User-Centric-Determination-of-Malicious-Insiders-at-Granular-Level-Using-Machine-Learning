@@ -165,3 +165,5 @@ The proposed system achieves high Detection Rate and Precision, especially when 
 	<li> The models might be enabled to make a note of multiple examples or maintain state (recurrent connections) giving it the capability to make non-Markovian decisions. </li>
 </ul>
 
+## Note:
+From the entirety of the Insider Threat Detection dataset, only CERT r5.2 was used for our work. The dataset can be downloaded from [here](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247/1).

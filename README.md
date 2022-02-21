@@ -93,7 +93,7 @@ The numerical vectors obtained after the feature extraction aid in training the 
 		<img src = "readme_images/nn.png" alt = "neural network") </li>
 	<li> <b>Random Forest:</b> <br>
 		The properties of RF make it a robust algorithm which is leveraged for insider threat detection in this work.
-		<img src = "rf.png" alt = "random forest") </li>
+		<img src = "rf.png" alt = "random forest" style="width:300px;height:400px;") </li>
 	<li> <b>XGBoost:</b> <br>
 		XGBoost provides for certain improvements over traditional gradient boosting techniques and hence provides for a scalable tree boosting system which is in turn used to reduce delay in malicious insider detection. </li>
 </ul>
